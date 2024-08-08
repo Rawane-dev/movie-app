@@ -1,0 +1,79 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(38, 38, 38);
+  height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 50px;
+gap: 50px;
+}
+.title{
+  display: flex;
+  justify-content: center ;
+  
+}
+.title h1{
+  
+  text-align: center;
+   font-size: 50px;
+  font-weight: 800;
+  letter-spacing: 0.9px;
+  background: linear-gradient(
+    90deg,
+    rgb(249, 211, 180) 0%,
+    rgba(249, 211, 180, 0) 100%
+  );
+   background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content; 
+}
+.search{
+  position: relative;
+
+
+}
+.container{
+  display: flex;
+  gap :50px;
+  flex-direction: column;
+}
+#icon{
+  position: absolute;
+  top: 12px;
+  right: 25px;
+  color: rgb(215, 151, 98) ;
+height: 35px;
+width: 40px;
+}
+.search input{
+  width: 910px;
+  height: 65px;
+  border-radius: 25px;
+  background-color: rgb(35, 35, 34);
+  border: none;
+  font-size: 20px;
+  padding-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #fff;
+  outline: none;
+}
+
+.movie-list{
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 30px;
+padding: 20px;
+}
+.spinner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  
+}

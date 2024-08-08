@@ -1,0 +1,47 @@
+.movie-card {
+  position: relative;
+  width: 270px; 
+  height: 380px; 
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  overflow: hidden;
+  color: rgb(239, 207, 182);
+  display: flex;
+  align-items: flex-end;
+}
+p {
+  position: absolute;
+  top: 0;
+  padding: 10px;
+  color: transparent;
+}
+.text {
+  padding: 15px;
+  background-color: rgba(58, 57, 57, 0.995); 
+  width: 100%;
+  height: 80px;
+  font-size: 13px;
+  font-family: Slack-Lato, Slack-Fractions, appleLogo, sans-serif;
+}
+.text h2 {
+  color: rgb(209, 210, 211);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+}
+.movie-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+.movie-card:hover .text {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 400px;
+  padding-top: 330px;
+  cursor: pointer;
+
+}
+.movie-card:hover p{
+    color: rgb(239, 207, 182) ;
+    
+}
