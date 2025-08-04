@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: rgb(38, 38, 38);
+  background-color: rgb(10, 0, 31);
   height: 100vh;
 display: flex;
 flex-direction: column;
@@ -55,7 +55,7 @@ width: 40px;
   width: 910px;
   height: 65px;
   border-radius: 25px;
-  background-color: rgb(35, 35, 34);
+  background-color: rgb(16, 0, 49);
   border: none;
   font-size: 20px;
   padding-left: 20px;
